@@ -70,6 +70,6 @@ app.post('/technos', function (req, res) {
     }
 });
 
-// listening
+// listening http://localhost:
 app.listen(port);
-console.log('Server started! At http://localhost:' + port);
+console.log('Server started! At https://danweson.github.io/nodetestap' + port);
