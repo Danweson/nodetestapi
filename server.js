@@ -72,4 +72,6 @@ app.post('/technos', function (req, res) {
 
 // listening http://localhost:
 app.listen(port);
+console.log('Node Test API')
+console.log(port)
 console.log('Server started! At https://danweson.github.io/nodetestap' + port);
